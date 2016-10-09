@@ -1,0 +1,6 @@
+CREATE TABLE LINE_USERS(
+   USERID TEXT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   PICTURE        TEXT     NOT NULL,
+   TS timestamp NOT NULL DEFAULT now()
+);

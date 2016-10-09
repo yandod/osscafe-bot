@@ -1,0 +1,12 @@
+{
+    "name": "yandod/osscafe-bot",
+    "authors": [
+        {
+            "name": "Yusuke Ando",
+            "email": "yandod@gmail.com"
+        }
+    ],
+    "require": {
+        "linecorp/line-bot-sdk": "^1.0"
+    }
+}
