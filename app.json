@@ -9,7 +9,7 @@
   },
   "env": {
     "CHANNEL_SECRET": "",
-    "CHANNEL_TOKEN": "",
+    "CHANNEL_TOKEN": ""
   },
   "addons": [
     "heroku-postgresql"
