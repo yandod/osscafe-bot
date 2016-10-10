@@ -1,0 +1,14 @@
+{
+  "name": "line-beacon-php-logger",
+  "description": "Store user accounts to databse from beacon event.",
+  "repository": "https://github.com/yandod/osscafe-bot/",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["php", "line-bot-sdk", "osscafe"],
+  "env": {
+    "CHANNEL_SECRET": "",
+    "CHANNEL_TOKEN": "",
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
