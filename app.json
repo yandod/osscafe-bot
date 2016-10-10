@@ -4,6 +4,9 @@
   "repository": "https://github.com/yandod/osscafe-bot/",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["php", "line-bot-sdk", "osscafe"],
+  "scripts": {
+    "postdeploy": "psql DATABASE -f pgsql.sql"
+  },
   "env": {
     "CHANNEL_SECRET": "",
     "CHANNEL_TOKEN": "",
