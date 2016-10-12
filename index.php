@@ -80,7 +80,7 @@ function updateProfile($db, $profile) {
   $ts = $result['ts'];
   error_log("LAST TS:" . $ts);
 
-  if ( (strtotime($ts) + 60 * 60) > time() ) {
+  if ( (strtotime($ts) + 60 * 60 * 12) > time() ) {
     error_log("no update.");
     return false;
   }
